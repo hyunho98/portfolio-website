@@ -44,8 +44,12 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<div class="stack gap-7 content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					<div class="links">
+						{entry.data.link ? <a href={entry.data.link} target="_blank"><Icon icon="link-simple" color="var(--accent-regular)" size="1.6em" gradient />website</a> : ''}
+						{entry.data.git ? <a href={entry.data.git} target="_blank"><Icon icon="github-logo" color="var(--accent-regular)" size="1.6em" gradient />github</a> : ''}
+					</div>
 					<div class="content">
 						<Content />
 					</div>
@@ -83,6 +87,13 @@ const { Content } = await entry.render();
 	.description {
 		font-size: var(--text-lg);
 		max-width: 54ch;
+	}
+
+	.links {
+		display: flex;
+		margin-inline: auto;
+		padding-top: none;
+		gap: 2rem;
 	}
 
 	.content {

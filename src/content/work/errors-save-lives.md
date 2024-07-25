@@ -1,14 +1,14 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2024-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: "Rails and ActiveRecord: Errors Save Lives"
+publishDate: 2023-11-11 00:00:00
+img: /assets/rails-logo.png
+img_alt: Ruby on Rails logo
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Use errors to your advantage.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Blog
+  - Rails
+  - ActiveRecord
 ---
 
 ## I thought errors were the enemy?

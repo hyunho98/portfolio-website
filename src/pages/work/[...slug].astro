@@ -12,9 +12,6 @@ interface Props {
 	entry: CollectionEntry<'work'>;
 }
 
-// This is a dynamic route that generates a page for every Markdown file in src/content/
-// Read more about dynamic routes and this `getStaticPaths` function in the Astro docs:
-// https://docs.astro.build/en/core-concepts/routing/#dynamic-routes
 export async function getStaticPaths() {
 	const work = await getCollection('work');
 	return work.map((entry) => ({
@@ -49,6 +46,7 @@ const { Content } = await entry.render();
 					<div class="links">
 						{entry.data.link ? <a href={entry.data.link} target="_blank"><Icon icon="link-simple" color="var(--accent-regular)" size="1.6em" gradient />website</a> : ''}
 						{entry.data.git ? <a href={entry.data.git} target="_blank"><Icon icon="github-logo" color="var(--accent-regular)" size="1.6em" gradient />github</a> : ''}
+						{entry.data.blog ? <a href={entry.data.blog}><Icon icon="newspaper-clipping" color="var(--accent-regular)" size="1.6em" gradient />blog</a> : ''}
 					</div>
 					<div class="content">
 						<Content />

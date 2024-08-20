@@ -12,6 +12,7 @@ export const collections = {
 			img_alt: z.string().optional(),
 			link: z.string().optional(),
 			git: z.string().optional(),
+			blog: z.string().optional(),
 		}),
 	}),
 };

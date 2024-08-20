@@ -19,4 +19,6 @@ Welcome to the Coffee Bean Database! Keep track of your favorite (or least favor
 - Rate coffee beans on your list from 1 to 5 stars
 - Sort and view coffee beans by location
 
+## Extras
+
 I built this project during my time with Flatiron School to practice building a local REST API, manipulating the DOM, and gain experience coding in ES6 JavaScript. The front end consists of a single JavaScript file that includes DOM creation, manipulation, and fetch requests to a locally hosted API.

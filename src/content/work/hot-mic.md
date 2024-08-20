@@ -26,4 +26,6 @@ Sometimes a performer is excellent on any and every stage. Sometimes they end up
 - View all posted events and see from a glance how many reviews have been posted for each event
 - View and manage your reviews in one place
 
+## Extras
+
 Hot Mic was built during my time with Flatiron School as a way to practice building a full stack application from scratch. Hot Mic uses a postgresql database and has been deployed using Render.

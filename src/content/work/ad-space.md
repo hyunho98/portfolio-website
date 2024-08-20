@@ -73,4 +73,4 @@ In a web browser, navigate to the local host using the http address shown in the
 
 ## Extras
 
-This app was built using Delegated Types to manage different types of Users in the backend, a blog post explaining this can be found [here](https://dev.to/hyunho98/utilizing-delegated-types-to-manage-multiple-types-of-users-52da)
+This app was built during my time with Flatiron School to demonstrate my creative problem solving ability through the creation of a full stack application that uses techniques not taught in the Flatiron Full Stack Engineering curriculum. My research lead me to the use of Delegated Types to manage different types of Users in the backend, a blog post explaining this can be found [here](/work/)

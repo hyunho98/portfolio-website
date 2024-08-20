@@ -23,4 +23,6 @@ Within virtual-museums you can:
 - Create spaces with limited capacity to feature a rotation of artists/art styles
 - Create a space for both AI generated and human made digital art
 
+## Extras
+
 Virtual Museums was built during my time with Flatiron School as a way to practice building a full stack application using a relational database that includes a many-to-many relationship.

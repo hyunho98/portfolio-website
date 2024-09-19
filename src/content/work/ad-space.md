@@ -10,7 +10,7 @@ tags:
   - CSS/HTML
   - REST API
 git: https://github.com/hyunho98/ad-space
-blog: /work/
+blog: /work/delegated-types
 ---
 # ad-space
 

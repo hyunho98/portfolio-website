@@ -6,5 +6,6 @@ Current features
 - About page with short biography, skills, and education
 
 WIP
+- Add to index page hero (interactive element?)
 - Find something else to fill out the index page
 - Add page for work experience (separate from projects)

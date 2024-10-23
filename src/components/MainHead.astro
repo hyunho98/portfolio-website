@@ -38,10 +38,17 @@ const {
 
 	if (typeof localStorage !== 'undefined') {
 		// Watch the document element and persist user preference when it changes.
-		const observer = new MutationObserver(() => {
+		const observer = new MutationObserver((mutations) => {
+			console.log(mutations)
 			const isDark = document.documentElement.classList.contains('theme-dark');
 			localStorage.setItem('theme', isDark ? 'dark' : 'light');
 		});
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
+
+
+	// Add an event listener so theme persists between view transition swaps
+	document.addEventListener('astro:after-swap', () => {
+		document.documentElement.classList[getThemePreference() === 'dark' ? 'add' : 'remove']('theme-dark');
+	});
 </script>
